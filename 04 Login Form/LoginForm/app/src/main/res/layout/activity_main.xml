@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: (1) Pasang gambar untuk logo di tengah dengan ukuran 150dp dan marginTop 50dp -->
+
+    <!-- TODO: (2) Buatlah EditText untuk "username" di bawah gambar -->
+
+    <!-- TODO: (3) Buatlah EditText untuk "password" di bawah username -->
+
+    <!-- TODO: (4) Buatlah Button untuk "Login" di bawah password -->
+
+</RelativeLayout>

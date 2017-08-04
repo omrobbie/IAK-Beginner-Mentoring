@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- COMPLETED: (1) Pasang gambar untuk logo di tengah dengan ukuran 150dp dan marginTop 50dp -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <!-- COMPLETED: (2) Buatlah EditText untuk "username" di bawah gambar -->
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:layout_centerInParent="true"
+        android:hint="username" />
+
+    <!-- COMPLETED: (3) Buatlah EditText untuk "password" di bawah username -->
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUsername"
+        android:layout_centerInParent="true"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <!-- COMPLETED: (4) Buatlah Button untuk "Login" di bawah password -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPassword"
+        android:layout_centerInParent="true"
+        android:text="Login" />
+
+</RelativeLayout>
