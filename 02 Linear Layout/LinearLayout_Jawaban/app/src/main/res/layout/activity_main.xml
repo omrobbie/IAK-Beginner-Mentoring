@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- COMPLETED: (1) Buatlah kotak berwarna merah di kiri dengan ukuran 100dp dan margin 10dp -->
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#ff0000"/>
+
+    <!-- COMPLETED: (2) Buatlah kotak berwarna hijau di tengah dengan ukuran 100dp dan margin 10dp -->
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="#00ff00"/>
+
+    <!-- COMPLETED: (3) Buatlah kotak berwarna biru di kanan dengan ukuran 100dp dan margin 10dp -->
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        android:background="#0000ff"/>
+
+    <!-- COMPLETED: (4) Buatlah LinearLayout dengan orientasi horizontal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#eee">
+
+        <!-- COMPLETED: (5) Didalam LinearLayout, buatlah TextView untuk label "Nama" -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Nama"/>
+
+        <!-- COMPLETED: (6) Buatlah EditText untuk inputan nama -->
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:hint="Tuliskan nama kamu disini!"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <!-- COMPLETED: (7) Buatlah Button di tengah untuk submit data nama -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ok"/>
+</LinearLayout>

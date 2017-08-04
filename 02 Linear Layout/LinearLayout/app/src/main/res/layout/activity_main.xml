@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: (1) Buatlah kotak berwarna merah di kiri dengan ukuran 100dp dan margin 10dp -->
+
+    <!-- TODO: (2) Buatlah kotak berwarna hijau di tengah dengan ukuran 100dp dan margin 10dp -->
+
+    <!-- TODO: (3) Buatlah kotak berwarna biru di kanan dengan ukuran 100dp dan margin 10dp -->
+
+    <!-- TODO: (4) Buatlah LinearLayout dengan orientasi horizontal -->
+
+        <!-- TODO: (5) Didalam LinearLayout, buatlah TextView untuk label "Nama" -->
+
+        <!-- TODO: (6) Buatlah EditText untuk inputan nama -->
+
+    <!-- TODO: (7) Buatlah Button di tengah untuk submit data nama -->
+
+</LinearLayout>
