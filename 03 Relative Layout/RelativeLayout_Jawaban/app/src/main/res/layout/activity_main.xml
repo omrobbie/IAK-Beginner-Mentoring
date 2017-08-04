@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- COMPLETED: (1) Buatlah kotak merah di tengah layar dengan ukuran 100dp dan margin 10dp -->
+    <View
+        android:id="@+id/kotak_merah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#ff0000"
+        android:layout_centerInParent="true"/>
+
+    <!-- COMPLETED: (2) Buatlah kotak hijau di atas kotak merah dengan ukuran 100dp dan margin 10dp -->
+    <View
+        android:id="@+id/kotak_hijau"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#00ff00"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/kotak_merah"/>
+
+    <!-- COMPLETED: (3) Buatlah kotak biru di kanan kotak merah dengan ukuran 100dp dan margin 10dp -->
+    <View
+        android:id="@+id/kotak_biru"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#0000ff"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/kotak_merah"/>
+
+    <!-- COMPLETED: (4) Buatlah kotak kuning di kiri kotak merah dengan ukuran 100dp dan margin 10dp -->
+    <View
+        android:id="@+id/kotak_kuning"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#ffff00"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/kotak_merah"/>
+
+    <!-- COMPLETED: (5) Buatlah kotak jingga di bawah kotak merah dengan ukuran 100dp dan margin 10dp -->
+    <View
+        android:id="@+id/kotak_jingga"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="#ff00ff"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/kotak_merah"/>
+
+</RelativeLayout>
