@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: (3) Buatlah RecyclerView dan beri id -->
+
+    <!-- TODO: (4) Buatlah layout baru dengan nama item_data.xml -->
+
+    <!-- TODO: (5) Ubah layout utama menjadi CardView -->
+    <!-- TODO: (6) Set tinggi layout menjadi wrap_content agar data per list tidak memenuhi satu layar penuh -->
+
+    <!-- TODO: (7) Tambahkan LinearLayout yang berorientasi vertical -->
+    <!-- TODO: (8) Didalamnya, tambahkan ImageView dan TextView dan beri id -->
+
+    <!-- Silahkan berkreasi sehingga layout terlihat bagus -->
+
+</LinearLayout>
