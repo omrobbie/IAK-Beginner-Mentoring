@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]
