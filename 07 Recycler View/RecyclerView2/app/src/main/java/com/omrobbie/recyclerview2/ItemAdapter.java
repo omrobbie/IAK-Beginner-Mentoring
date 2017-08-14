@@ -3,15 +3,8 @@ package com.omrobbie.recyclerview2;
 // TODO: (13) Buatlah class adapter untuk nanti digunakan oleh RecyclerView dengan cara
 // extends kelas ini dengan RecyclerView.Adapter
 
-import android.view.View;
-import android.widget.Toast;
-
 // TODO: (19) Masukkan ViewHolder kedalam Adapter
-public class ItemAdapter implements View.OnClickListener {
-    @Override
-    public void onClick(View v) {
-        Toast.makeText(, "", Toast.LENGTH_SHORT).show();
-    }
+public class ItemAdapter {
 
     // TODO: (21) Buatlah variabel untuk menampung semua item data ke dalam List
 
@@ -22,8 +15,7 @@ public class ItemAdapter implements View.OnClickListener {
 
     // TODO: (30) Implement View.OnClickListener
     public static class ItemViewHolder {
-        
- 
+
         // TODO: (16) Buatlah variabel penampung data dari layout
 
         // TODO: (15) Generate implements method dari RecyclerView.ViewHolder
