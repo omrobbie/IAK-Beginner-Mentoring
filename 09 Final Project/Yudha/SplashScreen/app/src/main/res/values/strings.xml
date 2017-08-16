@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SplashScreen</string>
+   <string-array name="learn">
+       <item>Ayah</item>
+       <item>Ibu</item>
+       <item>Kakak</item>
+       <item>Adik</item>
+       <item>Nenek</item>
+       <item>Kakek</item>
+       <item>Paman</item>
+       <item>Bibi</item>
+   </string-array>
+</resources>

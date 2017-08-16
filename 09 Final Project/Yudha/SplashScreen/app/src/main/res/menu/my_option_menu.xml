@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pengaturan"
+        android:title="Pengaturan"
+        android:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/versi"
+        android:title="Versi"
+        android:showAsAction="never"
+        />
+
+</menu>
