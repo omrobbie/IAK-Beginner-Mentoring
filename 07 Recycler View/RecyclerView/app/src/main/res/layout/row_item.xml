@@ -3,12 +3,48 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:padding="10dp"
+    android:weightSum="1">
 
     <!-- TODO: (3) Buatlah LinearLayout berorientasi horizontal -->
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-        <!-- TODO: (4) Di dalamnya, buatlah ImageView dan LinearLayout ke dua berorientasi vertical -->
 
-            <!-- TODO: (5) Di dalam LinearLayout ke dua, tambahkan 2 TextView untuk "Title" dan "Description" -->
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+
+                />
+        </LinearLayout>
+    <!-- TODO: (4) Di dalamnya, buatlah ImageView dan LinearLayout ke dua berorientasi vertical -->
+
+    <!-- TODO: (5) Di dalam LinearLayout ke dua, tambahkan 2 TextView untuk "Title" dan "Description" -->
+</LinearLayout>
 
 </LinearLayout>

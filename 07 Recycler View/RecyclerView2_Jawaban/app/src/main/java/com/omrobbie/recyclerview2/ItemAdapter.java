@@ -83,5 +83,6 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
     public int getItemCount() {
         // COMPLETED: (25) Set total dari keseluruhan item data
         return itemDatas.size();
+        Toast.makeText(, "", Toast.LENGTH_SHORT).show();
     }
 }

@@ -5,6 +5,10 @@
     android:orientation="vertical">
 
     <!-- TODO: (1) Buatlah kotak berwarna merah di kiri dengan ukuran 100dp dan margin 10dp -->
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
 
     <!-- TODO: (2) Buatlah kotak berwarna hijau di tengah dengan ukuran 100dp dan margin 10dp -->
 
