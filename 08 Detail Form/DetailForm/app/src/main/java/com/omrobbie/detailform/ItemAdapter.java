@@ -1,7 +1,5 @@
 package com.omrobbie.detailform;
 
-import android.content.Context;
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,8 +25,6 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
         private TextView item_title;
 
         // TODO: (3) Buat variabel untuk menampung data context
-        Context context;
-
 
         public ItemViewHolder(View itemView) {
             super(itemView);
@@ -39,7 +35,6 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
             itemView.setOnClickListener(this);
 
             // TODO: (4) Set variabel context dengan itemView
-            context = itemView.getContext();
         }
 
         public void bind (ItemData itemData) {
@@ -55,14 +50,10 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemViewHolder
         public void onClick(View view) {
 
             // TODO: (5) Deklarasikan intent ke layout ke dua
-            Intent intent = new Intent(view.getContext(),Main2Activity.class);
 
             // TODO: (6) Set data yang akan di parsing ke layout ke dua
-            intent.putExtra("item_photo", (int)item_photo.getTag());
-            intent.putExtra("item_title", item_title.getText());
 
             // TODO: (7) Panggil method startActivity
-            view.getContext().startActivity(intent);
         }
     }
 

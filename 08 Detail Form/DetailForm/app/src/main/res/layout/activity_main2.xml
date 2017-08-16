@@ -4,24 +4,7 @@
     android:layout_height="match_parent">
 
     <!-- TODO: (1) Buatlah ImageView dan beri id -->
-    <ImageView
-        android:id="@+id/detail_photo"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@mipmap/ic_launcher_round"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
 
     <!-- TODO: (2) Buatlah TextView dan beri id -->
-
-    <TextView
-        android:id="@+id/detail_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/detail_photo"
-        android:layout_centerHorizontal="true"
-        android:text="Judul"
-        android:textSize="50dp"
-        />
 
 </RelativeLayout>

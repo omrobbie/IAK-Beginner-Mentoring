@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Intent_Jawaban.iml" filepath="$PROJECT_DIR$/Intent_Jawaban.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharedPreferences.iml" filepath="$PROJECT_DIR$/SharedPreferences.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SharedPreferences.iml" filepath="$PROJECT_DIR$/SharedPreferences.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
