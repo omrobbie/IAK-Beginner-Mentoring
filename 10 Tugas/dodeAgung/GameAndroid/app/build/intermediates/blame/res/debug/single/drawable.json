@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\flat2.png",
-        "source": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\src\\main\\res\\drawable\\flat2.png"
-    },
-    {
         "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\User\\.android\\build-cache\\59a7a1ebe58452af507dc7cc87f5a08aab65aa44\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\flat2.png",
+        "source": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\src\\main\\res\\drawable\\flat2.png"
     },
     {
         "merged": "C:\\Users\\User\\Documents\\Android Kejar\\10 Tugas\\dodeAgung\\GameAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
