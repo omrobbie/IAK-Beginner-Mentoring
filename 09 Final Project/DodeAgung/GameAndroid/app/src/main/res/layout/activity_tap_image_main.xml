@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gamescore"
+    >
+
+
+    <Button
+        android:id="@+id/btnStart"
+        style="@style/buttonStyleDode"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Start"
+        android:layout_marginBottom="30dp"/>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:background="@color/biru">
+
+    <ImageView
+        android:id="@+id/detail_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/footbal"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/detail_bigtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_photo"
+        android:layout_centerHorizontal="true"
+        android:text="FINAL SCORE"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAllCaps="true" android:textColor="@color/putih"/>
+    <TextView
+        android:id="@+id/detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_bigtitle"
+        android:layout_centerHorizontal="true"
+        android:text="Indonesia vs Malaysia"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:textAllCaps="true" android:textColor="@color/putih"/>
+    <TextView
+        android:id="@+id/detail_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detail_title"
+        android:layout_centerHorizontal="true"
+        android:text="20 : 30"
+        android:textStyle="bold"
+        android:textSize="50dp" android:textColor="@color/putih" />
+</RelativeLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" android:background="#e4e4e4">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Team A" />
+
+            <TextView
+                android:id="@+id/scoreA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="0"
+                android:textSize="80dp" />
+
+            <Button
+                android:id="@+id/btn3A"
+                style="@style/buttonStyleDode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_button"
+                android:text="+3 Points" />
+
+            <Button
+                android:id="@+id/btn2A"
+                style="@style/buttonStyleDode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:text="+2 Points" />
+
+            <Button
+                android:id="@+id/btnA"
+                style="@style/buttonStyleDode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:text="Free Throw" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Team B" />
+
+            <TextView
+                android:id="@+id/scoreB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="0"
+                android:textSize="80dp" />
+
+            <Button
+                android:id="@+id/btn3B"
+                style="@style/buttonStyleDode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_button"
+                android:text="+3 Points" />
+
+            <Button
+                android:id="@+id/btn2B"
+                style="@style/buttonStyleDode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:text="+2 Points" />
+
+            <Button
+                android:id="@+id/btnB"
+                style="@style/buttonStyleDode"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_button"
+                android:text="Free Throw" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center" android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/buttonStyleDode"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/background_button"
+            android:drawableLeft="@drawable/ic_save_black_24dp"
+            android:drawablePadding="0dip"
+            android:paddingLeft="40dip"
+            android:paddingRight="40dip"
+            android:text="Save"
+            android:layout_marginBottom="10dp"
+
+            />
+
+        <Button
+            android:id="@+id/btnHistory"
+            style="@style/buttonStyleDode"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/background_button"
+            android:drawableLeft="@drawable/ic_history_black_24dp"
+            android:drawablePadding="0dip"
+            android:paddingLeft="40dip"
+            android:paddingRight="40dip"
+            android:text="History"
+
+
+            />
+    </LinearLayout>
+</LinearLayout>
+
