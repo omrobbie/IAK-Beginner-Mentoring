@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android Kejar BEst 3 Periode 2\IAK-Beginner-Mentoring\02 Linear Layout\LinearLayout1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Android Kejar BEst 3 Periode 2\IAK-Beginner-Mentoring\02 Linear Layout\LinearLayout1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6f35a1c363c865c72938d231fb8c360e931ddd48\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Kejar BEst 3 Periode 2\IAK-Beginner-Mentoring\02 Linear Layout\LinearLayout1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="71603df13b35f6be54e38b0fe5ce1e5e8df69fc7">
+        <dex dex="D:\Android Kejar BEst 3 Periode 2\IAK-Beginner-Mentoring\02 Linear Layout\LinearLayout1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bf28d1c7aa1de024ffe860cc12cbc5ddc896db10\classes.dex" />
+    </item>
+
+</items>
