@@ -56,10 +56,19 @@
         android:layout_marginTop="0dp"
         android:hint="Tanggal Lahir!"
         />
+
+    <TextView
+        android:id="@+id/tgl_lhr_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umur"
+        android:layout_below="@id/tgl_lhr"
+        android:layout_centerHorizontal="true"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tgl_lhr"
+        android:layout_below="@+id/tgl_lhr_lbl"
         android:layout_centerHorizontal="true">
 
 

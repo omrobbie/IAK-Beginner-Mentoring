@@ -2,9 +2,8 @@ package com.wirama.zodiak;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -12,11 +11,13 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
 
     private ImageView imageView;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private RadioGroup rgjk;
     private DatePickerDialog dtpicker;
     private SimpleDateFormat dateFormatter;
+    private TextView txtUmur;
 
 
 
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 Calendar newDate = Calendar.getInstance();
                 newDate.set(i,i1,i2);
                 txtlahir.setText(dateFormatter.format(newDate.getTime()));
+                txtUmur.setText("Umur = " + getAge(newDate.getTime()) + " tahun");
             }
         }, newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
         dtpicker.show();
@@ -59,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
         txtlahir = (EditText) findViewById(R.id.tgl_lhr);
         btnLogin=(Button)findViewById(R.id.login_button);
         rgjk = (RadioGroup) findViewById(R.id.jk);
+        txtUmur = (TextView) findViewById(R.id.tgl_lhr_lbl);
+
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,7 +86,23 @@ public class MainActivity extends AppCompatActivity {
                 showDateDialog();
             }
         });
+    }
 
+    private String getAge(Date date) {
+        Calendar birthday = Calendar.getInstance();
+        Calendar today = Calendar.getInstance();
 
+        birthday.setTime(date);
+
+        int age = today.get(Calendar.YEAR) - birthday.get(Calendar.YEAR);
+
+        if (today.get(Calendar.DAY_OF_YEAR) < birthday.get(Calendar.DAY_OF_YEAR)){
+            age--;
+        }
+
+        Integer ageInt = new Integer(age);
+        String ageS = ageInt.toString();
+
+        return ageS;
     }
 }
