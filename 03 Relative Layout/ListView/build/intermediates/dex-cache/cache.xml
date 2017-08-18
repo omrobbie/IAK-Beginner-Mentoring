@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Android Kejar BEst 3 Periode 2\IAK-Beginner-Mentoring\03 Relative Layout\ListView\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="268e6f51662b8ee9543c589c73d5340f3dd0966a">
+        <dex dex="D:\Android Kejar BEst 3 Periode 2\IAK-Beginner-Mentoring\03 Relative Layout\ListView\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7e42e8b0e0fb36c5087701d9e8bff95e45c9e6ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Kejar BEst 3 Periode 2\IAK-Beginner-Mentoring\03 Relative Layout\ListView\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\Android Kejar BEst 3 Periode 2\IAK-Beginner-Mentoring\03 Relative Layout\ListView\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d39de3a9d7206323c426856b8903a4b821e8a336\classes.dex" />
+    </item>
+
+</items>

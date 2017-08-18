@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\Android Kejar BEst 3 Periode 2\\IAK-Beginner-Mentoring\\03 Relative Layout\\RelativeLayout1\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\ChuPAK\\.android\\build-cache\\c7afdf76b2c31e9258a0bb09b34636bc1efba4b3\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

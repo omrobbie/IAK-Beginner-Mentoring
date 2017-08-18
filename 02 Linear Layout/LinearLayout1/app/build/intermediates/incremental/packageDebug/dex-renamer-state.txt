@@ -1,0 +1,7 @@
+#Sat Aug 05 11:08:01 CST 2017
+base.0=D\:\\Android Kejar BEst 3 Periode 2\\IAK-Beginner-Mentoring\\02 Linear Layout\\LinearLayout1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6f35a1c363c865c72938d231fb8c360e931ddd48
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Android Kejar BEst 3 Periode 2\\IAK-Beginner-Mentoring\\02 Linear Layout\\LinearLayout1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bf28d1c7aa1de024ffe860cc12cbc5ddc896db10\\classes.dex
+base.1=D\:\\Android Kejar BEst 3 Periode 2\\IAK-Beginner-Mentoring\\02 Linear Layout\\LinearLayout1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bf28d1c7aa1de024ffe860cc12cbc5ddc896db10
+file.0=D\:\\Android Kejar BEst 3 Periode 2\\IAK-Beginner-Mentoring\\02 Linear Layout\\LinearLayout1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6f35a1c363c865c72938d231fb8c360e931ddd48\\classes.dex
