@@ -14,14 +14,14 @@ public class ScoreCounterActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_front_interface);
-        final Button button3A = findViewById(R.id.btn3A);
-        final Button button2A = findViewById(R.id.btn2A);
-        final Button buttonA = findViewById(R.id.btnA);
-        final Button button3B = findViewById(R.id.btn3B);
-        final Button button2B = findViewById(R.id.btn2B);
-        final Button buttonB = findViewById(R.id.btnB);
-        final Button buttonHistory = findViewById(R.id.btnHistory);
-        final Button buttonSave = findViewById(R.id.btnSave);
+        final Button button3A = (Button) findViewById(R.id.btn3A);
+        final Button button2A = (Button) findViewById(R.id.btn2A);
+        final Button buttonA = (Button) findViewById(R.id.btnA);
+        final Button button3B = (Button) findViewById(R.id.btn3B);
+        final Button button2B = (Button) findViewById(R.id.btn2B);
+        final Button buttonB = (Button) findViewById(R.id.btnB);
+        final Button buttonHistory = (Button) findViewById(R.id.btnHistory);
+        final Button buttonSave = (Button) findViewById(R.id.btnSave);
         final TextView txtscoreA = (TextView) findViewById(R.id.scoreA);
         final TextView txtscoreB = (TextView) findViewById(R.id.scoreB);
 
