@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#787878">
+
+    <!-- COMPLETED: (3) Buatlah LinearLayout berorientasi horizontal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- COMPLETED: (4) Di dalamnya, buatlah ImageView dan LinearLayout ke dua berorientasi vertical -->
+        <ImageView
+            android:id="@+id/item_image_score"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/footbal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/biru">
+
+            <!-- COMPLETED: (5) Di dalam LinearLayout ke dua, tambahkan 2 TextView untuk "Title" dan "Description" -->
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Title"
+                android:textSize="16sp"
+                android:textStyle="bold" android:textColor="@color/putih" />
+
+            <TextView
+                android:id="@+id/item_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Description" android:textColor="@color/putih"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

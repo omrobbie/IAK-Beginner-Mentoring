@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GameAndroid</string>
+    <color name="ungu">#9C27B0</color>
+    <color name="biru">#2799b0</color>
+    <color name="biruterang">#07918b</color>
+    <color name="silver">#9E9E9E</color>
+    <color name="putih">#ffffff</color>
+
+    <!-- Recource untuk layout Uts -->
+    <string name="button">OK</string>
+    <string name="var1">variable one</string>
+    <string name="var2">variable two</string>
+    <string name="Kalkulator">Kalkulator</string>
+    <string name="inputan">Proses Input</string>
+    <string name="about">Tentang Ane</string>
+    <string name="persamaan">Persamaan Kuadrat</string>
+    <string name="inputApp">Input Output App</string>
+    <string name="btnPrint">Print Bro!!!</string>
+    <string name="title_activity_contoh">ContohActivity</string>
+    <string name="title_activity_uts">UtsActivity</string>
+
+</resources>
